@@ -1,0 +1,41 @@
+{
+    "res": {
+        "css/app.min.css": {
+            "uri": "http://tjvvv.com/demo/jinba/css/app.min.css",
+            "type": "css"
+        },
+        "css/style.less": {
+            "uri": "http://tjvvv.com/demo/jinba/css/style.css",
+            "type": "css"
+        },
+        "js/flippage.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/flippage.js",
+            "type": "js"
+        },
+        "js/loader.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/loader.js",
+            "type": "js"
+        },
+        "js/platform.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/platform.js",
+            "type": "js"
+        },
+        "js/script.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/script.js",
+            "type": "js"
+        },
+        "js/share.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/share.js",
+            "type": "js"
+        },
+        "js/viewport.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/viewport.js",
+            "type": "js"
+        },
+        "js/zepto.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/zepto.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}

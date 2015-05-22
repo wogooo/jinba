@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Document</title>
+    <script type="text/javascript">if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+    var version = parseFloat(RegExp.$1);
+    if(version>2.3){
+        var phoneScale = parseInt(window.screen.width)/640;
+        document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+    }else{
+        document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+    }
+}else{
+    document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+}</script>
+    <script type="text/javascript">(function(navigator) {
+    var userAgent = navigator.userAgent;
+        documentElement = document.documentElement;
+    if ( userAgent.match( /micromessenger\/5/gi ) ) {
+        documentElement.className += " mobile wx_mobile wx_mobile_5";
+    } else if ( userAgent.match( /micromessenger/gi ) ) {
+        documentElement.className += " mobile wx_mobile";
+    } else if ( userAgent.match( /ucbrowser/gi ) ) {
+        documentElement.className += " mobile uc_mobile";
+    } else if ( /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( userAgent.toLowerCase() ) ) {
+        documentElement.className += " mobile";
+    } else if ( userAgent.toLowerCase().match( /msie/gi ) && ( parseFloat( userAgent.toLowerCase().match( /msie ([0-9]{1,}[\.0-9]{0,})/i )[1] || 999 ) < 9 ) ) {
+        documentElement.className += " pc pc-ie pc-ie8";
+    } else if ( userAgent.toLowerCase().match( /msie/gi ) || navigator.msPointerEnabled || navigator.pointerEnabled ) {
+         documentElement.className += " pc pc-ie";
+    } else {
+        documentElement.className += " pc";
+    }
+})(navigator);</script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script>
+    wx.config({ debug: false,
+        appID: 'wx708acc93bd6ad1b0',
+        timestamp: 1432232951,
+        nonceStr: 'KzGn8gBOuYLHlhhd',
+        signature: 'abb08778babff03d454a2a3edc07e0f66fcad02c',
+        jsApiList: [ 'checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo' ]
+    });
+    </script>
+    <link rel="stylesheet" href="http://tjvvv.com/demo/jinba/css/app.min.css">
+    <link rel="stylesheet" href="http://tjvvv.com/demo/jinba/css/style.css">
+    <!--分享信息start-->
+    <!--分享给朋友数据-->
+    <meta name="share_msg"
+        data-title="分享给好友标题"
+        data-desc="分享给好友描述"
+        data-imgUrl="分享给好友图片"
+        data-link=""
+    >
+    <!--分享到朋友圈数据-->
+    <meta name="share_line"
+        data-title="分享到朋友圈标题11"
+        data-imgUrl=""
+        data-link=""
+    >
+    <!--分享成功回调跳转链接-->
+    <meta name="share_callback" data-callback="http://www.baidu.com">
+    <!--分享信息end-->
+</head>
+<body class="app" >
+    <div id="app-loading" class="app-loading">
+        <div id="floatingCirclesG">
+            <div class="f_circleG" id="frotateG_01"></div><div class="f_circleG" id="frotateG_02"></div><div class="f_circleG" id="frotateG_03"></div><div class="f_circleG" id="frotateG_04"></div><div class="f_circleG" id="frotateG_05"></div><div class="f_circleG" id="frotateG_06"></div><div class="f_circleG" id="frotateG_07"></div><div class="f_circleG" id="frotateG_08"></div>
+        </div>
+    </div>
+    <div class="ui-guideWrap"></div>
+    <section class="app-content">
+        <section id="story1" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+                <div class="ui-text ui-text5 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story2" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story3" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB">
+                    <div class="ui-text ui-text11 a-fadeinB"></div>
+                    <div class="ui-text ui-text22 a-fadeinB"></div>
+                    <div class="ui-text ui-text33 a-fadeinB"></div>
+                    <div class="ui-text ui-text44 a-fadeinB"></div>
+                    <div class="ui-text ui-text55 a-fadeinB"></div>
+                </div>
+            </section>
+        </section>
+        <section id="story4" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+                <div class="ui-text ui-text5 a-fadeinB"></div>
+                <div class="ui-text ui-text6 a-fadeinB"></div>
+                <div class="ui-text ui-text7 a-fadeinB"></div>
+                <div class="ui-text ui-text8 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story5" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story6" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story7" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story8" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-box ui-box1 a-fadeinL"></div>
+                <div class="ui-arrow ui-arrow1 a-fadeinL"></div>
+                <div class="ui-box ui-box2 a-fadeinT"></div>
+                <div class="ui-arrow ui-arrow2 a-fadeinR"></div>
+                <div class="ui-box ui-box3 a-fadeinR"></div>
+                <div class="ui-arrow ui-arrow3 a-fadeinT"></div>
+                <div class="ui-box ui-box4 a-fadeinT"></div>
+                <div class="ui-arrow ui-arrow4 a-fadeinL"></div>
+                <div class="ui-box ui-box5 a-fadeinT"></div>
+                <div class="ui-arrow ui-arrow5 a-fadeinL"></div>
+                <div class="ui-box ui-box6 a-fadeinL"></div>
+            </section>
+        </section>
+        <section id="story9" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+                <div class="ui-text ui-text5 a-fadeinB"></div>
+                <div class="ui-text ui-text6 a-fadeinB"></div>
+                <div class="ui-text ui-text7 a-fadeinB">
+                    <a class="leftbtn" href="#"></a>
+                    <a class="rightbtn" href="#"></a>
+                </div>
+                <div class="ui-text ui-text8 a-fadeinB"></div>
+            </section>
+        </section>
+        <section id="story10" class="page">
+            <section class="page-content middle-center">
+                <div class="ui-text ui-text1 a-fadeinB"></div>
+                <div class="ui-text ui-text2 a-fadeinB"></div>
+                <div class="ui-text ui-text3 a-fadeinB"></div>
+                <div class="ui-text ui-text4 a-fadeinB"></div>
+                <div class="ui-text ui-text5 a-fadeinB"></div>
+                <div class="ui-text ui-text6 a-fadeinB"></div>
+            </section>
+        </section>
+    </section>
+    <div id="share-mask" class="a-fadein"><div class="share-mask-tip"></div></div>
+    <script src="http://tjvvv.com/demo/jinba/js/zepto.js"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/flippage.js"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/share.js"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/loader.js"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/script.js"></script>
+</body>
+</html>
