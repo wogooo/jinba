@@ -1,5 +1,3 @@
-var StaticPath = "";
-// var StaticPath = "http://static.idaiyan.cn/special/h5_20150515_haochanpin";
 var ImagePrefix = StaticPath + "/img/";
 var imageloader = function(imageUrlArr,callback){
     var imageArr = [];
