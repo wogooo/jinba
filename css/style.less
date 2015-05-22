@@ -19,6 +19,7 @@ body,
             animation: guide 1s ease-out 0s infinite;
     background-image: url(../img/arrow.png);
 }
+@yanchi : .5s;
 #story1{
     background: url(../img/p1bg.jpg) no-repeat 50% 0;
     background-size: cover;
@@ -32,26 +33,40 @@ body,
     }
     .ui-text1{
         height: 60px;
+        -webkit-animation-duration: .8s;
+                animation-duration: .8s;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
         background-position: 50% 0;
     }
     .ui-text2{
         height: 124px;
         margin-top: 39px;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
         background-position: 50% -100px;
     }
     .ui-text3{
         height: 31px;
         margin-top: 94px;
+        -webkit-animation-delay: 2s+@yanchi;
+                animation-delay: 2s+@yanchi;
         background-position: 50% -320px;
     }
     .ui-text4{
         height: 20px;
         margin-top: 30px;
+        -webkit-animation-delay: 2.4s+@yanchi;
+                animation-delay: 2.4s+@yanchi;
         background-position: 50% -383px;
     }
     .ui-text5{
         height: 57px;
         margin-top: 110px;
+        -webkit-animation-delay: 3s;
+                animation-delay: 3s;
         background-position: 50% -517px;
     }
 }
@@ -69,15 +84,23 @@ body,
     .ui-text1{
         height: 60px;
         background-position: 50% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 88px;
         margin-top: 32px;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
         background-position: 50% -118px;
     }
     .ui-text3{
         height: 47px;
         margin-top: 73px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
         background-position: 50% -278px;
     }
 }
@@ -96,15 +119,21 @@ body,
     .ui-text1{
         height: 64px;
         background-position: 50% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 122px;
         margin-top: 88px;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
         background-position: 50% -150px;
     }
     .ui-text3{
         height: 122px;
         margin-top: 2px;
+        -webkit-animation-delay: 1.2s+@yanchi;
+                animation-delay: 1.2s+@yanchi;
         background-position: 50% -272px;
     }
     .ui-text4{
@@ -123,18 +152,28 @@ body,
         }
     }
     .ui-text11{
+        -webkit-animation-delay: 2s+@yanchi;
+                animation-delay: 2s+@yanchi;
         background-position: -47px -431px;
     }
     .ui-text22{
+        -webkit-animation-delay: 2.2s+@yanchi;
+                animation-delay: 2.2s+@yanchi;
         background-position: -196px -431px;
     }
     .ui-text33{
+        -webkit-animation-delay: 2.4s+@yanchi;
+                animation-delay: 2.4s+@yanchi;
         background-position: -346px -431px;
     }
     .ui-text44{
+        -webkit-animation-delay: 2.6s+@yanchi;
+                animation-delay: 2.6s+@yanchi;
         background-position: -119px -585px;
     }
     .ui-text55{
+        -webkit-animation-delay: 2.8s+@yanchi;
+                animation-delay: 2.8s+@yanchi;
         background-position: -288px -585px;
     }
 }
@@ -153,40 +192,56 @@ body,
     .ui-text1{
         height: 88px;
         background-position: 50% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 50px;
         margin-top: 50px;
         background-position: 50% -140px;
+        -webkit-animation-delay: .5s+@yanchi;
+                animation-delay: .5s+@yanchi;
     }
     .ui-text3{
         height: 50px;
         margin-top: 10px;
         background-position: 50% -200px;
+        -webkit-animation-delay: 1s+@yanchi;
+                animation-delay: 1s+@yanchi;
     }
     .ui-text4{
         height: 50px;
         margin-top: 10px;
         background-position: 50% -260px;
+        -webkit-animation-delay: 1.5s+@yanchi;
+                animation-delay: 1.5s+@yanchi;
     }
     .ui-text5{
         height: 50px;
         margin-top: 10px;
         background-position: 50% -320px;
+        -webkit-animation-delay: 2s+@yanchi;
+                animation-delay: 2s+@yanchi;
     }
     .ui-text6{
         height: 40px;
         margin-top: 10px;
         background-position: 50% -380px;
+        -webkit-animation-delay: 2.5s+@yanchi;
+                animation-delay: 2.5s+@yanchi;
     }
     .ui-text7{
         height: 64px;
         margin-top: 10px;
         background-position: 50% -426px;
+        -webkit-animation-delay: 3s+@yanchi;
+                animation-delay: 3s+@yanchi;
     }
     .ui-text8{
         height: 64px;
         background-position: 50% -490px;
+        -webkit-animation-delay: 3.5s+@yanchi;
+                animation-delay: 3.5s+@yanchi;
     }
 }
 #story5{
@@ -204,21 +259,35 @@ body,
     .ui-text1{
         height: 88px;
         background-position: 30% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 58px;
         margin-top: 50px;
         background-position: 30% -120px;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
     }
     .ui-text3{
         height: 131px;
         margin-top: 140px;
-        background-position: 30% -314px;
+        width:360px;
+        background-position: -50% -314px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
     }
     .ui-text4{
         height: 72px;
         margin-top: 20px;
-        background-position: 30% -464px;
+        width:360px;
+        background-position: -50% -464px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
     }
 }
 #story6{
@@ -236,21 +305,35 @@ body,
     .ui-text1{
         height: 88px;
         background-position: 30% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 58px;
         margin-top: 50px;
         background-position: 30% -129px;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
     }
     .ui-text3{
         height: 138px;
         margin-top: 140px;
-        background-position: 30% -329px;
+        width:360px;
+        background-position: -50% -329px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
     }
     .ui-text4{
         height: 72px;
         margin-top: 20px;
-        background-position: 30% -491px;
+        width:360px;
+        background-position: -50% -491px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
+        -webkit-animation-duration: 1.5s;
+                animation-duration: 1.5s;
     }
 }
 #story7{
@@ -268,24 +351,32 @@ body,
     .ui-text1{
         height: 88px;
         background-position: 30% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-text2{
         height: 58px;
         margin-top: 50px;
         background-position: 30% -129px;
+        -webkit-animation-delay: .8s+@yanchi;
+                animation-delay: .8s+@yanchi;
     }
     .ui-text3{
+        width: 225px;
         height: 185px;
-        width:225px;
-        margin-left:60px;
         margin-top: 220px;
+        margin-left: 60px;
         background: url(../img/p7cup.png) no-repeat 50% 50%;
         background-position: 0 0;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
     }
     .ui-text4{
         height: 72px;
         margin-top: -130px;
         background-position: 30% -406px;
+        -webkit-animation-delay: 2.8s+@yanchi;
+                animation-delay: 2.8s+@yanchi;
     }
 }
 #story8{
@@ -305,68 +396,96 @@ body,
         width: 194px;
         height: 194px;
         background: url(../img/p8ct.png) no-repeat 50% 50%;
+        -webkit-animation-duration: .5s;
+                animation-duration: .5s;
     }
     .ui-arrow{
         float: left;
         width: 640px;
         background: url(../img/p8ct.png) no-repeat 50% 50%;
+        -webkit-animation-duration: .2s;
+                animation-duration: .2s;
     }
     .ui-text1{
         height: 88px;
-        margin-bottom:50px;
+        margin-bottom: 50px;
         background-position: 50% 0;
+        -webkit-animation-delay: @yanchi;
+                animation-delay: @yanchi;
     }
     .ui-box1{
-        margin-left:91px;
+        margin-left: 91px;
         background-position: -31px -139px;
+        -webkit-animation-delay: .3s+@yanchi;
+                animation-delay: .3s+@yanchi;
     }
     .ui-box2{
         background-position: -312px -139px;
+        -webkit-animation-delay: .9s+@yanchi;
+                animation-delay: .9s+@yanchi;
     }
     .ui-box3{
-        margin-left:91px;
+        margin-left: 91px;
         background-position: -31px -386px;
+        -webkit-animation-delay: 2.1s+@yanchi;
+                animation-delay: 2.1s+@yanchi;
     }
     .ui-box4{
         background-position: -312px -386px;
+        -webkit-animation-delay: 1.5s+@yanchi;
+                animation-delay: 1.5s+@yanchi;
     }
     .ui-box5{
-        margin-left:91px;
+        margin-left: 91px;
         background-position: -31px -643px;
+        -webkit-animation-delay: 2.7s+@yanchi;
+                animation-delay: 2.7s+@yanchi;
     }
     .ui-box6{
         background-position: -312px -643px;
+        -webkit-animation-delay: 3.3s+@yanchi;
+                animation-delay: 3.3s+@yanchi;
     }
     .ui-arrow1{
         width: 68px;
         height: 192px;
         margin: 0 10px;
         background-position: 54% -139px;
+        -webkit-animation-delay: .6s+@yanchi;
+                animation-delay: .6s+@yanchi;
     }
     .ui-arrow2{
-        clear:left;
+        clear: left;
         height: 54px;
-        margin-bottom:8px;
+        margin-bottom: 8px;
         background-position: 50% -331px;
+        -webkit-animation-delay: 1.2s+@yanchi;
+                animation-delay: 1.2s+@yanchi;
     }
     .ui-arrow3{
         width: 68px;
         height: 192px;
         margin: 0 10px;
         background-position: 54% -386px;
+        -webkit-animation-delay: 1.8s+@yanchi;
+                animation-delay: 1.8s+@yanchi;
     }
     .ui-arrow4{
-        clear:left;
+        clear: left;
         height: 54px;
-        margin-top:3px;
-        margin-bottom:5px;
+        margin-top: 3px;
+        margin-bottom: 5px;
         background-position: 50% -581px;
+        -webkit-animation-delay: 2.4s+@yanchi;
+                animation-delay: 2.4s+@yanchi;
     }
     .ui-arrow5{
         width: 68px;
         height: 192px;
         margin: 0 10px;
         background-position: 54% -643px;
+        -webkit-animation-delay: 3s+@yanchi;
+                animation-delay: 3s+@yanchi;
     }
 }
 #story9{
@@ -409,24 +528,25 @@ body,
         background-position: 50% -393px;
     }
     .ui-text7{
+        font-size: 0;
         height: 76px;
         margin-top: 190px;
-        background-position: 56% -613px;
         text-align: center;
-        font-size: 0;
+        background-position: 56% -613px;
     }
     .ui-text8{
         height: 24px;
         margin-top: 46px;
         background-position: 50% -735px;
     }
-    .leftbtn,.rightbtn{
-        width:224px;
-        height:76px;
+    .leftbtn,
+    .rightbtn{
         display: inline-block;
+        width: 224px;
+        height: 76px;
     }
     .rightbtn{
-        margin-left:40px;
+        margin-left: 40px;
     }
 }
 #story10{

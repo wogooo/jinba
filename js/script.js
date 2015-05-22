@@ -15,41 +15,39 @@ var loader = function(){
             progress = 100;
             setTimeout(function(){
                 loaded();
-            },1000);
+            },500);
         }
 
     });
 
-    function loaded(){
-        $(function(){
-            var loading = $("#app-loading");
-            loading.addClass("z-hide");
-            loading.on("webkitTransitionEnd", function() {
-                loading.remove();
-            });
-        });
-    }
 };
 
-var app = function() {
+function loaded(){
     $(function(){
-
-        flippage = new Flippage($("body"));
-        $(window).on("load",function(){
+        var loading = $("#app-loading");
+        loading.addClass("z-hide");
+        loading.on("webkitTransitionEnd", function() {
+            loading.remove();
             flippage._isInitComplete = true;
             flippage.showPage();
+            flippage.showPage(8);
         });
+    });
+}
 
+var init = function() {
+    $(function(){
+        flippage = new Flippage($("body"));
     });
 };
 
 if(/MicroMessenger/.test(navigator.userAgent)) {
+    init();
     wx.ready(function(){
         loader();
-        app();
     });
 }else{
     loader();
-    app();
+    init();
 }
 

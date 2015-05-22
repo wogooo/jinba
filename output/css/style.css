@@ -33,26 +33,40 @@ body,
 }
 #story1 .ui-text1 {
   height: 60px;
+  -webkit-animation-duration: .8s;
+  animation-duration: .8s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
   background-position: 50% 0;
 }
 #story1 .ui-text2 {
   height: 124px;
   margin-top: 39px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
   background-position: 50% -100px;
 }
 #story1 .ui-text3 {
   height: 31px;
   margin-top: 94px;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
   background-position: 50% -320px;
 }
 #story1 .ui-text4 {
   height: 20px;
   margin-top: 30px;
+  -webkit-animation-delay: 2.9s;
+  animation-delay: 2.9s;
   background-position: 50% -383px;
 }
 #story1 .ui-text5 {
   height: 57px;
   margin-top: 110px;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   background-position: 50% -517px;
 }
 #story2 {
@@ -70,15 +84,23 @@ body,
 #story2 .ui-text1 {
   height: 60px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story2 .ui-text2 {
   height: 88px;
   margin-top: 32px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
   background-position: 50% -118px;
 }
 #story2 .ui-text3 {
   height: 47px;
   margin-top: 73px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
   background-position: 50% -278px;
 }
 #story3 {
@@ -97,15 +119,21 @@ body,
 #story3 .ui-text1 {
   height: 64px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story3 .ui-text2 {
   height: 122px;
   margin-top: 88px;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
   background-position: 50% -150px;
 }
 #story3 .ui-text3 {
   height: 122px;
   margin-top: 2px;
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s;
   background-position: 50% -272px;
 }
 #story3 .ui-text4 {
@@ -124,18 +152,28 @@ body,
   text-align: center;
 }
 #story3 .ui-text11 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
   background-position: -47px -431px;
 }
 #story3 .ui-text22 {
+  -webkit-animation-delay: 2.7s;
+  animation-delay: 2.7s;
   background-position: -196px -431px;
 }
 #story3 .ui-text33 {
+  -webkit-animation-delay: 2.9s;
+  animation-delay: 2.9s;
   background-position: -346px -431px;
 }
 #story3 .ui-text44 {
+  -webkit-animation-delay: 3.1s;
+  animation-delay: 3.1s;
   background-position: -119px -585px;
 }
 #story3 .ui-text55 {
+  -webkit-animation-delay: 3.3s;
+  animation-delay: 3.3s;
   background-position: -288px -585px;
 }
 #story4 {
@@ -154,40 +192,56 @@ body,
 #story4 .ui-text1 {
   height: 88px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story4 .ui-text2 {
   height: 50px;
   margin-top: 50px;
   background-position: 50% -140px;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
 #story4 .ui-text3 {
   height: 50px;
   margin-top: 10px;
   background-position: 50% -200px;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 #story4 .ui-text4 {
   height: 50px;
   margin-top: 10px;
   background-position: 50% -260px;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 #story4 .ui-text5 {
   height: 50px;
   margin-top: 10px;
   background-position: 50% -320px;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 #story4 .ui-text6 {
   height: 40px;
   margin-top: 10px;
   background-position: 50% -380px;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
 }
 #story4 .ui-text7 {
   height: 64px;
   margin-top: 10px;
   background-position: 50% -426px;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 #story4 .ui-text8 {
   height: 64px;
   background-position: 50% -490px;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
 }
 #story5 {
   background: url(http://tjvvv.com/demo/jinba/img/p5bg.jpg) no-repeat 50% 0;
@@ -205,21 +259,35 @@ body,
 #story5 .ui-text1 {
   height: 88px;
   background-position: 30% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story5 .ui-text2 {
   height: 58px;
   margin-top: 50px;
   background-position: 30% -120px;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 #story5 .ui-text3 {
   height: 131px;
   margin-top: 140px;
-  background-position: 30% -314px;
+  width: 360px;
+  background-position: -50% -314px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 #story5 .ui-text4 {
   height: 72px;
   margin-top: 20px;
-  background-position: 30% -464px;
+  width: 360px;
+  background-position: -50% -464px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 #story6 {
   background: url(http://tjvvv.com/demo/jinba/img/p6bg.jpg) no-repeat 50% 0;
@@ -237,21 +305,35 @@ body,
 #story6 .ui-text1 {
   height: 88px;
   background-position: 30% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story6 .ui-text2 {
   height: 58px;
   margin-top: 50px;
   background-position: 30% -129px;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 #story6 .ui-text3 {
   height: 138px;
   margin-top: 140px;
-  background-position: 30% -329px;
+  width: 360px;
+  background-position: -50% -329px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 #story6 .ui-text4 {
   height: 72px;
   margin-top: 20px;
-  background-position: 30% -491px;
+  width: 360px;
+  background-position: -50% -491px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 #story7 {
   background: url(http://tjvvv.com/demo/jinba/img/p7bg.jpg) no-repeat 50% 0;
@@ -269,24 +351,32 @@ body,
 #story7 .ui-text1 {
   height: 88px;
   background-position: 30% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story7 .ui-text2 {
   height: 58px;
   margin-top: 50px;
   background-position: 30% -129px;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 #story7 .ui-text3 {
-  height: 185px;
   width: 225px;
-  margin-left: 60px;
+  height: 185px;
   margin-top: 220px;
+  margin-left: 60px;
   background: url(http://tjvvv.com/demo/jinba/img/p7cup.png) no-repeat 50% 50%;
   background-position: 0 0;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
 }
 #story7 .ui-text4 {
   height: 72px;
   margin-top: -130px;
   background-position: 30% -406px;
+  -webkit-animation-delay: 3.3s;
+  animation-delay: 3.3s;
 }
 #story8 {
   background: url(http://tjvvv.com/demo/jinba/img/p8bg.jpg) no-repeat 50% 0;
@@ -306,55 +396,79 @@ body,
   width: 194px;
   height: 194px;
   background: url(http://tjvvv.com/demo/jinba/img/p8ct.png) no-repeat 50% 50%;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
 }
 #story8 .ui-arrow {
   float: left;
   width: 640px;
   background: url(http://tjvvv.com/demo/jinba/img/p8ct.png) no-repeat 50% 50%;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
 }
 #story8 .ui-text1 {
   height: 88px;
   margin-bottom: 50px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story8 .ui-box1 {
   margin-left: 91px;
   background-position: -31px -139px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 #story8 .ui-box2 {
   background-position: -312px -139px;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 #story8 .ui-box3 {
   margin-left: 91px;
   background-position: -31px -386px;
+  -webkit-animation-delay: 2.6s;
+  animation-delay: 2.6s;
 }
 #story8 .ui-box4 {
   background-position: -312px -386px;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
 }
 #story8 .ui-box5 {
   margin-left: 91px;
   background-position: -31px -643px;
+  -webkit-animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
 #story8 .ui-box6 {
   background-position: -312px -643px;
+  -webkit-animation-delay: 3.8s;
+  animation-delay: 3.8s;
 }
 #story8 .ui-arrow1 {
   width: 68px;
   height: 192px;
   margin: 0 10px;
   background-position: 54% -139px;
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s;
 }
 #story8 .ui-arrow2 {
   clear: left;
   height: 54px;
   margin-bottom: 8px;
   background-position: 50% -331px;
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
 #story8 .ui-arrow3 {
   width: 68px;
   height: 192px;
   margin: 0 10px;
   background-position: 54% -386px;
+  -webkit-animation-delay: 2.3s;
+  animation-delay: 2.3s;
 }
 #story8 .ui-arrow4 {
   clear: left;
@@ -362,12 +476,16 @@ body,
   margin-top: 3px;
   margin-bottom: 5px;
   background-position: 50% -581px;
+  -webkit-animation-delay: 2.9s;
+  animation-delay: 2.9s;
 }
 #story8 .ui-arrow5 {
   width: 68px;
   height: 192px;
   margin: 0 10px;
   background-position: 54% -643px;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 #story9 {
   background: url(http://tjvvv.com/demo/jinba/img/p9bg.jpg) no-repeat 50% 0;
@@ -410,11 +528,11 @@ body,
   background-position: 50% -393px;
 }
 #story9 .ui-text7 {
+  font-size: 0;
   height: 76px;
   margin-top: 190px;
-  background-position: 56% -613px;
   text-align: center;
-  font-size: 0;
+  background-position: 56% -613px;
 }
 #story9 .ui-text8 {
   height: 24px;
@@ -423,9 +541,9 @@ body,
 }
 #story9 .leftbtn,
 #story9 .rightbtn {
+  display: inline-block;
   width: 224px;
   height: 76px;
-  display: inline-block;
 }
 #story9 .rightbtn {
   margin-left: 40px;
