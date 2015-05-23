@@ -13,7 +13,7 @@ fis.config.set('roadmap.path', [
         release: false
     },
     {
-        reg : /readme.md|fis-conf.js/,
+        reg : /readme.md|fis-conf.js/ig,
         //编译的时候不要产出了
         release : false
     }

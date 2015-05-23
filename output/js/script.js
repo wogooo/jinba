@@ -30,7 +30,7 @@ function loaded(){
             loading.remove();
             flippage._isInitComplete = true;
             flippage.showPage();
-            flippage.showPage(8);
+            //flippage.showPage(8);
         });
     });
 }
