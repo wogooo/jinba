@@ -58,8 +58,8 @@ body,
 #story1 .ui-text4 {
   height: 20px;
   margin-top: 30px;
-  -webkit-animation-delay: 2.9s;
-  animation-delay: 2.9s;
+  -webkit-animation-delay: 2.7s;
+  animation-delay: 2.7s;
   background-position: 50% -383px;
 }
 #story1 .ui-text5 {
@@ -74,8 +74,8 @@ body,
   background-size: cover;
 }
 #story2 .middle-center {
-  -webkit-transform: translate3d(-50%, -100%, 0);
-  transform: translate3d(-50%, -100%, 0);
+  -webkit-transform: translate3d(-50%, -70%, 0);
+  transform: translate3d(-50%, -70%, 0);
 }
 #story2 .ui-text {
   width: 640px;
@@ -239,22 +239,28 @@ body,
 }
 #story4 .ui-text7 {
   height: 64px;
-  margin-top: 10px;
+  margin-top: 20px;
   background-position: 50% -426px;
-  -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
 }
 #story4 .ui-text8 {
   height: 64px;
+  margin-top: 15px;
   background-position: 50% -490px;
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 4.2s;
+  animation-delay: 4.2s;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
 }
 #story5 {
   background: url(http://tjvvv.com/demo/jinba/img/p5bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story5 .middle-center {
+  z-index: 3;
   top: 6%;
   -webkit-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
@@ -300,6 +306,7 @@ body,
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background: url(http://tjvvv.com/demo/jinba/img/p5bg2.jpg) no-repeat 50% 50%;
@@ -521,41 +528,63 @@ body,
 #story9 .ui-text1 {
   height: 88px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story9 .ui-text2 {
   height: 43px;
   margin-top: 63px;
-  background-position: 50% -150px;
+  background-position: 50% -148px;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
 }
 #story9 .ui-text3 {
   height: 83px;
   background-position: 50% -192px;
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
 #story9 .ui-text4 {
   height: 43px;
   background-position: 50% -276px;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
 }
 #story9 .ui-text5 {
   height: 22px;
   margin-top: 10px;
   background-position: 50% -328px;
+  -webkit-animation-delay: 2.9s;
+  animation-delay: 2.9s;
 }
 #story9 .ui-text6 {
   height: 28px;
   margin-top: 43px;
   background-position: 50% -393px;
+  opacity: 0;
+  -webkit-animation: fadeInUp 1s ease-out 3.5s, tada 1s linear 5s;
+  animation: fadeInUp 1s ease-out 3.5s, tada 1s linear 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 #story9 .ui-text7 {
   font-size: 0;
   height: 76px;
-  margin-top: 190px;
+  margin-top: 210px;
   text-align: center;
   background-position: 56% -613px;
+  opacity: 0;
+  -webkit-animation: bounceIn 1s ease-out 3.5s, pulse 1s linear 5.5s infinite;
+  animation: bounceIn 1s ease-out 3.5s, pulse 1s linear 5.5s infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 #story9 .ui-text8 {
   height: 24px;
   margin-top: 46px;
   background-position: 50% -735px;
+  -webkit-animation-delay: 4.3s;
+  animation-delay: 4.3s;
 }
 #story9 .leftbtn,
 #story9 .rightbtn {
@@ -582,31 +611,46 @@ body,
 #story10 .ui-text1 {
   height: 44px;
   background-position: 50% 0;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 #story10 .ui-text2 {
   height: 88px;
   margin-top: 60px;
   background-position: 50% -107px;
+  opacity: 0;
+  -webkit-animation: fadeInDown 1s ease-out 0.9s, flash 0.2s linear 3.3s;
+  animation: fadeInDown 1s ease-out 0.9s, flash 0.2s linear 3.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 #story10 .ui-text3 {
   height: 40px;
   margin-top: 58px;
   background-position: 50% -254px;
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.7s;
 }
 #story10 .ui-text4 {
   height: 191px;
   margin-top: 42px;
   background-position: 50% -337px;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
 }
 #story10 .ui-text5 {
   height: 22px;
   margin-top: 65px;
-  background-position: 50% -584px;
+  background-position: 70% -584px;
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 #story10 .ui-text6 {
   height: 58px;
   margin-top: 84px;
   background-position: 50% -682px;
+  -webkit-animation-delay: 2.9s;
+  animation-delay: 2.9s;
 }
 @-webkit-keyframes guide {
   0% {
