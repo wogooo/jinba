@@ -1,8 +1,36 @@
-var loader = function(){
+if(/MicroMessenger/.test(navigator.userAgent)) {
+    init();
+    wx.ready(function(){
+        loader();
+        bind();
+        document.getElementById("bgm").play();
+    });
+}else{
+    loader();
+    init();
+    bind();
+}
+
+window.onload = function() {
+    $audio = $("audio");
+    if ($audio.length>0) {
+        $audio.attr("src", $audio.data("src"));
+        $audio.parent("a").prepend('<i class="icon-music"></i>');
+    }
+};
+
+
+function init() {
+    $(function(){
+        flippage = new Flippage($("body"));
+    });
+}
+
+function loader(){
     var imageList = [
         "p1bg.jpg","p2bg.jpg","p3bg.jpg","p4bg.jpg","p5bg.jpg","p6bg.jpg","p7bg.jpg","p8bg.jpg","p9bg.jpg","p10bg.jpg",
         "p1ct.png","p2ct.png","p3ct.png","p4ct.png","p5ct.png","p6ct.png","p7ct.png","p8ct.png","p9ct.png","p10ct.png",
-        "p7cup.png"
+        "p7cup.png","p5bg2.jpg","units-icons.png"
     ];
 
 
@@ -20,7 +48,8 @@ var loader = function(){
 
     });
 
-};
+}
+
 
 function loaded(){
     $(function(){
@@ -30,24 +59,33 @@ function loaded(){
             loading.remove();
             flippage._isInitComplete = true;
             flippage.showPage();
-            //flippage.showPage(8);
+            // flippage.showPage(8);
         });
     });
 }
 
-var init = function() {
+
+function bind(){
     $(function(){
-        flippage = new Flippage($("body"));
+        var obj = $(".u-globalAudio").eq(0);
+        var audio = $("audio")[0];
+        if (audio.autoplay) {
+            play();
+        }
+        obj.on("click",function(){
+            if (obj.hasClass('z-play')) {
+                pause();
+            }else{
+                play();
+            }
+        });
+        function pause(){
+            audio.pause();
+            obj.removeClass("z-play").addClass("z-pause");
+        }
+        function play(){
+            audio.play();
+            obj.removeClass("z-pause").addClass("z-play");
+        }
     });
-};
-
-if(/MicroMessenger/.test(navigator.userAgent)) {
-    init();
-    wx.ready(function(){
-        loader();
-    });
-}else{
-    loader();
-    init();
 }
-
