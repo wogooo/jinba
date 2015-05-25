@@ -4,12 +4,20 @@
             "uri": "http://tjvvv.com/demo/jinba/css/app.min.css",
             "type": "css"
         },
+        "css/form.less": {
+            "uri": "http://tjvvv.com/demo/jinba/css/form.css",
+            "type": "css"
+        },
         "css/style.less": {
             "uri": "http://tjvvv.com/demo/jinba/css/style.css",
             "type": "css"
         },
         "js/flippage.js": {
             "uri": "http://tjvvv.com/demo/jinba/js/flippage.js",
+            "type": "js"
+        },
+        "js/icheck.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/icheck.js",
             "type": "js"
         },
         "js/loader.js": {

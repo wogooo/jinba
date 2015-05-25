@@ -99,7 +99,8 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 button[disabled], html input[disabled] {
     cursor: default
 }
-butt    border: 0;
+button{
+    border: 0;
     padding: 0
 }
 input {

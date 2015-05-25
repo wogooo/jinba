@@ -88,4 +88,18 @@ function bind(){
             obj.removeClass("z-pause").addClass("z-play");
         }
     });
+
+    $(function(){
+        $("#share-mask").on("touchmove",function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        });
+        $(".leftbtn").on("click",function(){
+            $("#share-mask").show();
+        });
+        $("#share-mask").on("click",function(){
+            $(this).hide();
+        });
+    });
 }
