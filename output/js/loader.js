@@ -10,14 +10,15 @@ var imageloader = function(imageUrlArr,callback){
 var audioloader = function(audioUrlArr,callback){
     for (var i = 0, length = audioUrlArr.length; i < length; i++) {
         //console.log(audioUrlArr[i].data);
-        audioUrlArr[i].onplaying = audioUrlArr[i].onerror = function(){
-            if (!this.autoplay) {
-                this.pause();
-            }
-            callback(this);
-            this.onplaying = null;
-        };
+        audioUrlArr[i].onplaying = audioUrlArr[i].onerror = _callback;
         audioUrlArr[i].src = audioUrlArr[i].dataset.src;
         audioUrlArr[i].play();
+    }
+    function _callback(){
+        if (!this.autoplay) {
+            this.pause();
+        }
+        callback(this);
+        this.onplaying = null;
     }
 };
