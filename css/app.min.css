@@ -6,6 +6,9 @@ html {
 body {
     margin: 0
 }
+@-ms-viewport{
+    width:640px;
+}
 *, *:after, *:before{
     box-sizing: border-box;
 }
@@ -393,7 +396,7 @@ a, button, form, input, select, textarea {
     text-decoration: none;
     font-size: 24px;
     position: fixed;
-    left: 28px;
+    right: 28px;
     top: 28px;
     display: block;
     z-index: 9999
