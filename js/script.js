@@ -14,7 +14,7 @@ if(/MicroMessenger/.test(navigator.userAgent)) {
 window.onload = function() {
     $audio = $("audio");
     if ($audio.length>0) {
-        $audio.attr("src", $audio.data("src"));
+        $audio.attr("src", StaticPath+$audio.data("src"));
         $audio.parent("a").prepend('<i class="icon-music"></i>');
     }
 };
@@ -22,6 +22,7 @@ window.onload = function() {
 
 function init() {
     $(function(){
+        FastClick.attach(document.body);
         flippage = new Flippage($("body"));
     });
 }
@@ -30,7 +31,7 @@ function loader(){
     var imageList = [
         "p1bg.jpg","p2bg.jpg","p3bg.jpg","p4bg.jpg","p5bg.jpg","p6bg.jpg","p7bg.jpg","p8bg.jpg","p9bg.jpg","p10bg.jpg",
         "p1ct.png","p2ct.png","p3ct.png","p4ct.png","p5ct.png","p6ct.png","p7ct.png","p8ct.png","p9ct.png","p10ct.png",
-        "p7cup.png","p5bg2.jpg","units-icons.png"
+        "p7cup.png","p5bg2.jpg","units-icons.png","share.png"
     ];
 
 

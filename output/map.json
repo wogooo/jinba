@@ -12,6 +12,10 @@
             "uri": "http://tjvvv.com/demo/jinba/css/style.css",
             "type": "css"
         },
+        "js/fastclick.js": {
+            "uri": "http://tjvvv.com/demo/jinba/js/fastclick.js",
+            "type": "js"
+        },
         "js/flippage.js": {
             "uri": "http://tjvvv.com/demo/jinba/js/flippage.js",
             "type": "js"

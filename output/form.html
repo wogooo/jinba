@@ -6,10 +6,38 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>劲霸-创富汇</title>
-    <script type="text/javascript" src="js/viewport.js?__inline"></script>
-    <script type="text/javascript" src="js/platform.js?__inline"></script>
-    <link rel="stylesheet" href="css/app.min.css">
-    <link rel="stylesheet" href="css/form.less">
+    <script type="text/javascript">if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
+    var version = parseFloat(RegExp.$1);
+    if(version>2.3){
+        var phoneScale = parseInt(window.screen.width)/640;
+        document.write('<meta name="viewport" content="width=640, minimum-scale = '+ phoneScale +', maximum-scale = '+ phoneScale +', target-densitydpi=device-dpi">');
+    }else{
+        document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+    }
+}else{
+    document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+}</script>
+    <script type="text/javascript">(function(navigator) {
+    var userAgent = navigator.userAgent;
+        documentElement = document.documentElement;
+    if ( userAgent.match( /micromessenger\/5/gi ) ) {
+        documentElement.className += " mobile wx_mobile wx_mobile_5";
+    } else if ( userAgent.match( /micromessenger/gi ) ) {
+        documentElement.className += " mobile wx_mobile";
+    } else if ( userAgent.match( /ucbrowser/gi ) ) {
+        documentElement.className += " mobile uc_mobile";
+    } else if ( /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test( userAgent.toLowerCase() ) ) {
+        documentElement.className += " mobile";
+    } else if ( userAgent.toLowerCase().match( /msie/gi ) && ( parseFloat( userAgent.toLowerCase().match( /msie ([0-9]{1,}[\.0-9]{0,})/i )[1] || 999 ) < 9 ) ) {
+        documentElement.className += " pc pc-ie pc-ie8";
+    } else if ( userAgent.toLowerCase().match( /msie/gi ) || navigator.msPointerEnabled || navigator.pointerEnabled ) {
+         documentElement.className += " pc pc-ie";
+    } else {
+        documentElement.className += " pc";
+    }
+})(navigator);</script>
+    <link rel="stylesheet" href="http://tjvvv.com/demo/jinba/css/app.min.css">
+    <link rel="stylesheet" href="http://tjvvv.com/demo/jinba/css/form.css">
 </head>
 <body>
     <div class="form-title"></div>
@@ -143,9 +171,9 @@
 
     </form>
     </div>
-    <script src="js/zepto.js?2"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/zepto.js?2"></script>
     <script src="js/fastclick.js"></script>
-    <script src="js/icheck.js?2"></script>
+    <script src="http://tjvvv.com/demo/jinba/js/icheck.js?2"></script>
     <script>
     $(function(){
         FastClick.attach(document.body);
