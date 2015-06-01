@@ -1,3 +1,12 @@
+<?php
+
+use yii\helpers\Url;
+
+require_once dirname(dirname(dirname(dirname(__FILE__))))."/wxjssdk/jssdk.php";
+$jssdk = new JSSDK("wx753126c234482aab", "dfef58151a1b30e023b9d1e57ad41aa8");
+$signPackage = $jssdk->GetSignPackage();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,40 +47,39 @@
 })(navigator);</script>
     <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script>
-    wx.config({
+      wx.config({
         debug: false,
-        appID: 'wx708acc93bd6ad1b0',
-        timestamp: 1432232951,
-        nonceStr: 'KzGn8gBOuYLHlhhd',
-        signature: 'abb08778babff03d454a2a3edc07e0f66fcad02c',
+        appId: '<?php echo $signPackage["appId"];?>',
+        timestamp: <?php echo $signPackage["timestamp"];?>,
+        nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+        signature: '<?php echo $signPackage["signature"];?>',
         jsApiList: [ 'checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo' ]
-    });
+      });
     </script>
     <script>
         // var StaticPath = "";
-        var StaticPath = "http://jinba.com/static";
+        var StaticPath = "/static";
     </script>
-    <link rel="stylesheet" href="http://jinba.com/static/css/app.min.css?2">
-    <link rel="stylesheet" href="http://jinba.com/static/css/style.css?2">
+    <link rel="stylesheet" href="/static/css/app.min.css?2">
+    <link rel="stylesheet" href="/static/css/style.css?2">
     <!--分享信息start-->
     <!--分享给朋友数据-->
     <meta name="share_msg"
-        data-title="劲霸-创富汇"
-        data-desc="微力量精选"
-        data-imgUrl="分享给好友图片"
-        data-link=""
+        data-title="劲霸·创富汇 微力量精选"
+        data-desc="中国首个面向创富族群的竞选，本活动由劲霸男装和创业家联合主办"
+        data-link="<?=Url::toRoute(['site/main']);?>"
     >
     <!--分享到朋友圈数据-->
     <meta name="share_line"
-        data-title="劲霸-创富汇-微力量精选"
-        data-imgUrl=""
-        data-link=""
+        data-title="劲霸·创富汇-微力量精选--中国首个面向创富族群的竞选"
+        data-link="<?=Url::toRoute(['site/main']);?>"
     >
     <!--分享成功回调跳转链接-->
     <meta name="share_callback" data-callback="">
     <!--分享信息end-->
 </head>
 <body class="app" >
+<img style="display:none;" src="http://<?=$_SERVER["HTTP_HOST"]?>/static/img/sharepic.jpg">
     <div id="app-loading" class="app-loading">
         <div id="floatingCirclesG">
             <div class="f_circleG" id="frotateG_01"></div><div class="f_circleG" id="frotateG_02"></div><div class="f_circleG" id="frotateG_03"></div><div class="f_circleG" id="frotateG_04"></div><div class="f_circleG" id="frotateG_05"></div><div class="f_circleG" id="frotateG_06"></div><div class="f_circleG" id="frotateG_07"></div><div class="f_circleG" id="frotateG_08"></div>
@@ -195,11 +203,11 @@
         </section>
     </section>
     <div id="share-mask" class="a-fadein"><div class="share-mask-tip"></div></div>
-    <script src="http://jinba.com/static/js/zepto.js?2"></script>
-    <script src="http://jinba.com/static/js/fastclick.js"></script>
-    <script src="http://jinba.com/static/js/flippage.js?2"></script>
-    <script src="http://jinba.com/static/js/share.js?2"></script>
-    <script src="http://jinba.com/static/js/loader.js?2"></script>
-    <script src="http://jinba.com/static/js/script.js?2"></script>
+    <script src="/static/js/zepto.js?2"></script>
+    <script src="/static/js/fastclick.js"></script>
+    <script src="/static/js/flippage.js?2"></script>
+    <script src="/static/js/share.js?2"></script>
+    <script src="/static/js/loader.js?2"></script>
+    <script src="/static/js/script.js?2"></script>
 </body>
 </html>

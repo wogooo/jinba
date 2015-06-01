@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-
+use yii\helpers\Json;
 /**
  * UserController implements the CRUD actions for User model.
  */
@@ -29,13 +29,18 @@ class UserController extends Controller {
 	 * @return mixed
 	 */
 	public function actionIndex() {
-		$dataProvider = new ActiveDataProvider([
-			'query' => User::find(),
-		]);
+		$get = Yii::$app->request->get();
+		if (isset($get["pwd"]) && $get["pwd"] == "jbcfh2015jbcfh") {
+			$dataProvider = new ActiveDataProvider([
+				'query' => \app\models\User::find(),
+			]);
 
-		return $this->render('index', [
-			'dataProvider' => $dataProvider,
-		]);
+			return $this->render('index', [
+				'dataProvider' => $dataProvider,
+			]);
+		}else{
+			echo "您的权限不够";
+		}
 	}
 
 	/**
@@ -56,54 +61,88 @@ class UserController extends Controller {
 	 */
 	public function actionCreate() {
 		$time = time();
-		$userModel = new models\User();
-		$companyModel = new models\Company();
-		$extendModel = new models\Extend();
+		$userModel = new User();
+		$companyModel = new Company();
+		$extendModel = new Extend();
 		if (Yii::$app->request->isAjax) {
 			$form = Yii::$app->request->post();
 
-			$form['create_time'] = $time;
-			$form['update_time'] = $time;
+			$mobile = $form['mobile'];
 
-			$userModel->attributes = $form;
+			if ($userModel->checkexist($mobile)) {
 
-			$userSetAttrArr = [];
+				$res = [
+					'code' => 1001,
+					'data' => '',
+					'msg' => "手机已存在",
+				];
 
-			if (isset($form['type'])) {
-				$userSetAttrArr['type'] = implode(',', $form['type']);
-			}
+			} else {
 
-			$userModel->setAttributes($userSetAttrArr);
 
-			if ($userModel->save()) {
+				$form['create_time'] = $time;
+				$form['update_time'] = $time;
 
-				$uid = $userModel->id;
+				if (empty($form['number'])) {
+					$form['number'] = 0;
+				}
 
-				$companyModel->attributes = $form;
+				$userModel->attributes = $form;
 
-				$companyModel->setAttributes(['uid' => $uid]);
+				$userSetAttrArr = [];
 
-				if ($companyModel->save()) {
+				if (isset($form['type'])) {
+					$userSetAttrArr['type'] = implode(',', $form['type']);
+				}
 
-					$extendModel->attributes = $form;
 
-					$extendSetAttrArr = [
-						'uid' => $uid,
-					];
+				$userModel->setAttributes($userSetAttrArr);
 
-					if (isset($form['information'])) {
-						$extendSetAttrArr['information'] = implode(',', $form['information']);
-					}
+				if ($userModel->validate() && $companyModel->validate() && $extendModel->validate()) {
 
-					$extendModel->setAttributes($extendSetAttrArr);
+					if ($userModel->save()) {
 
-					if ($extendModel->save()) {
-						$res = [
-							'code' => 0,
-							'data' => ["uid" => $uid],
-							'msg' => 'success',
-						];
+						$uid = $userModel->id;
 
+						$companyModel->attributes = $form;
+
+						$companyModel->setAttributes(['uid' => $uid]);
+
+						if ($companyModel->save()) {
+
+							$extendModel->attributes = $form;
+
+							$extendSetAttrArr = [
+								'uid' => $uid,
+							];
+
+							if (isset($form['information'])) {
+								$extendSetAttrArr['information'] = implode(',', $form['information']);
+							}
+
+							$extendModel->setAttributes($extendSetAttrArr);
+
+							if ($extendModel->save()) {
+								$res = [
+									'code' => 0,
+									'data' => ["uid" => $uid],
+									'msg' => 'success',
+								];
+
+							} else {
+								$res = [
+									'code' => 1,
+									'data' => '',
+									'msg' => $userModel->errors,
+								];
+							}
+						} else {
+							$res = [
+								'code' => 1,
+								'data' => '',
+								'msg' => $userModel->errors,
+							];
+						}
 					} else {
 						$res = [
 							'code' => 1,
@@ -118,14 +157,9 @@ class UserController extends Controller {
 						'msg' => $userModel->errors,
 					];
 				}
-			} else {
-				$res = [
-					'code' => 1,
-					'data' => '',
-					'msg' => $userModel->errors,
-				];
 			}
-			echo json_encode($res);
+			header("Content-type:application/json;charset=utf-8");
+			echo Json::encode($res);
 			exit;
 		}
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
@@ -175,7 +209,7 @@ class UserController extends Controller {
 	 * @throws NotFoundHttpException if the model cannot be found
 	 */
 	protected function findModel($id) {
-		if (($model = User::findOne($id)) !== null) {
+		if (($model = \app\models\User::findOne($id)) !== null) {
 			return $model;
 		} else {
 			throw new NotFoundHttpException('The requested page does not exist.');

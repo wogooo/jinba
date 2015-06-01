@@ -2,6 +2,10 @@
 
 use yii\helpers\Url;
 
+require_once dirname(dirname(dirname(dirname(__FILE__))))."/wxjssdk/jssdk.php";
+$jssdk = new JSSDK("wx753126c234482aab", "dfef58151a1b30e023b9d1e57ad41aa8");
+$signPackage = $jssdk->GetSignPackage();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,10 +45,37 @@ use yii\helpers\Url;
         documentElement.className += " pc";
     }
 })(navigator);</script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script>
+      wx.config({
+        debug: false,
+        appId: '<?php echo $signPackage["appId"];?>',
+        timestamp: <?php echo $signPackage["timestamp"];?>,
+        nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+        signature: '<?php echo $signPackage["signature"];?>',
+        jsApiList: [ 'checkJsApi', 'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo' ]
+      });
+    </script>
     <link rel="stylesheet" href="/static/css/app.min.css">
     <link rel="stylesheet" href="/static/css/form.css">
+    <!--分享信息start-->
+    <!--分享给朋友数据-->
+    <meta name="share_msg"
+        data-title="劲霸·创富汇 微力量精选"
+        data-desc="中国首个面向创富族群的竞选，本活动由劲霸男装和创业家联合主办"
+        data-link="<?=Url::toRoute(['site/main']);?>"
+    >
+    <!--分享到朋友圈数据-->
+    <meta name="share_line"
+        data-title="劲霸·创富汇-微力量精选--中国首个面向创富族群的竞选"
+        data-link="<?=Url::toRoute(['site/main']);?>"
+    >
+    <!--分享成功回调跳转链接-->
+    <meta name="share_callback" data-callback="">
+    <!--分享信息end-->
 </head>
 <body>
+<img style="display:none;" src="http://<?=$_SERVER["HTTP_HOST"]?>/static/img/sharepic.jpg">
     <div class="form-title"></div>
     <div class="form-wrap">
     <form id="js-form" action="">
@@ -57,8 +88,8 @@ use yii\helpers\Url;
         <div class="formitem">
             <label class="label">性别</label>
             <ul class="form-object">
-                <li><input id="sex1" name="gender" checked type="radio" value="1"><label for="sex1">女</label></li>
-                <li><input id="sex2" name="gender" type="radio" value="2"><label for="sex2">男</label></li>
+                <li><input id="sex1" name="gender" type="radio" value="1"><label for="sex1">女</label></li>
+                <li><input id="sex2" name="gender" checked type="radio" value="2"><label for="sex2">男</label></li>
             </ul>
         </div>
         <div class="formitem">
@@ -88,12 +119,12 @@ use yii\helpers\Url;
         <div class="formitem">
             <label class="label label-l">是否*<span>[请选择至少1项]</span></label>
             <ul>
-                <li><input id="type1" name="type[]" type="checkbox" value="1"><label for="type1">企业创始人</label></li>
-                <li><input id="type2" name="type[]" type="checkbox" value="2"><label for="type2">私营企业主</label></li>
-                <li><input id="type3" name="type[]" type="checkbox" value="3"><label for="type3">个体户</label></li>
-                <li><input id="type4" name="type[]" type="checkbox" value="4"><label for="type4">股东</label></li>
-                <li><input id="type5" name="type[]" type="checkbox" value="5"><label for="type5">外聘高管</label></li>
-                <li><input id="type6" name="type[]" type="checkbox" value="6"><label for="type6">其他</label></li>
+                <li><input class="type" id="type1" name="type[]" type="checkbox" value="1"><label for="type1">企业创始人</label></li>
+                <li><input class="type" id="type2" name="type[]" type="checkbox" value="2"><label for="type2">私营企业主</label></li>
+                <li><input class="type" id="type3" name="type[]" type="checkbox" value="3"><label for="type3">个体户</label></li>
+                <li><input class="type" id="type4" name="type[]" type="checkbox" value="4"><label for="type4">股东</label></li>
+                <li><input class="type" id="type5" name="type[]" type="checkbox" value="5"><label for="type5">外聘高管</label></li>
+                <li><input class="type" id="type6" name="type[]" type="checkbox" value="6"><label for="type6">其他</label></li>
             </ul>
         </div>
 
@@ -165,10 +196,10 @@ use yii\helpers\Url;
             <label>相关资料提供</label>
             <p>（让导师更了解你的项目）</p>
             <ul>
-                <li><input id="information1" name="information[]" type="checkbox" value="1"><label for="information1">照片</label></li>
-                <li><input id="information2" name="information[]" type="checkbox" value="2"><label for="information2">视频</label></li>
-                <li><input id="information3" name="information[]" type="checkbox" value="3"><label for="information3">媒体报到</label></li>
-                <li><input id="information4" name="information[]" type="checkbox" value="4"><label for="information4">其他</label></li>
+                <li><input class="information" id="information1" name="information[]" type="checkbox" value="1"><label for="information1">照片</label></li>
+                <li><input class="information" id="information2" name="information[]" type="checkbox" value="2"><label for="information2">视频</label></li>
+                <li><input class="information" id="information3" name="information[]" type="checkbox" value="3"><label for="information3">媒体报到</label></li>
+                <li><input class="information" id="information4" name="information[]" type="checkbox" value="4"><label for="information4">其他</label></li>
             </ul>
         </div>
         <input type="hidden" value="<?=$csrfToken?>" name="_csrf">
@@ -176,36 +207,105 @@ use yii\helpers\Url;
 
     </form>
     </div>
+    <div id="share-mask" class="a-fadein"><div class="share-mask-tip"></div></div>
     <script src="/static/js/zepto.js?2"></script>
     <script src="/static/js/fastclick.js"></script>
+    <script src="/static/js/share.js?2"></script>
     <script src="/static/js/icheck.js?2"></script>
     <script>
     var CREATE_URL = "<?=Url::toRoute(['user/create']);?>";
     $(function(){
         FastClick.attach(document.body);
+        $("#share-mask").on("touchmove",function(e){
+            e.stopPropagation();
+            e.preventDefault();
+        });
+        $("#share-mask").on("click",function(){
+            $(this).hide();
+        });
         $('input').iCheck({
             checkboxClass: 'icheckbox_minimal',
             radioClass: 'iradio_minimal',
             increaseArea: '20%' // optional
         });
+        var ajaxing = false;
         $("#js-form").submit(function(){
             var dataArr = $(this).serializeArray();
+            for (var i = 0, len = dataArr.length; i < len ; i++) {
+                if (dataArr[i]['name'] === "name" && $.trim(dataArr[i]['value']).length === 0) {
+                    alert("请填写姓名!");
+                    return false;
+                }
+                if (dataArr[i]['name'] === "birthday" && $.trim(dataArr[i]['value']).length === 0) {
+                    alert("请填写生日!");
+                    return false;
+                }
+                if (dataArr[i]['name'] === "mobile" && $.trim(dataArr[i]['value']).length === 0) {
+                    alert("请填写手机号码!");
+                    return false;
+                } else if (dataArr[i]['name'] === "mobile" && !/^13[0-9]{9}$|14[0-9]{9}$|15[0-9]{9}$|17[0-9]{9}$|18[0-9]{9}$/.test($.trim(dataArr[i]['value']))){
+                    alert("请填写正确的手机号码!");
+                    return false;
+                }
+                if (dataArr[i]['name'] === "email" && $.trim(dataArr[i]['value']).length === 0) {
+                    alert("请填写邮箱!");
+                    return false;
+                } else if (dataArr[i]['name'] === "email" && !/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/.test($.trim(dataArr[i]['value']))){
+                    alert("请填写正确的邮箱!");
+                    return false;
+                }
+                if (dataArr[i]['name'] === "social" && $.trim(dataArr[i]['value']).length === 0) {
+                    alert("请填写微信微博!");
+                    return false;
+                }
+            }
+            if ($(".type:checked").length<1) {
+                alert("请选择类型，至少一项！");
+                return false;
+            }
+            if (ajaxing) {
+                return false;
+            }
+            ajaxing = true;
             $.ajax({
                 url: CREATE_URL,
                 type: 'POST',
                 dataType: 'json',
                 data: $(this).serialize(),
                 success:function(data){
-                    console.log(data);
-                    console.log("success");
+                    ajaxing = false;
+                    if (data.code == "0") {
+                        alert("提交成功！");
+                        $(window).scrollTop(0);
+                        $("#share-mask").show();
+                        setShareMsg();
+                    }else if(data.code == "1001"){
+                        alert("您已经报名过！");
+                        $(window).scrollTop(0);
+                        $("#share-mask").show();
+                        setShareMsg();
+                    }else if(data.code == "1"){
+                        alert("提交失败！信息不全！");
+                    }else{
+                        alert("提交失败！请重试！");
+                    }
+                    //console.log("success");
                 },
                 error:function(){
-                    console.log("error");
+                    ajaxing = false;
+                    alert("提交失败！请重试！");
+                    //console.log("error");
                 }
             });
             return false;
         });
     });
+    function setShareMsg(){
+        var name = document.getElementsByName("name")[0].value;
+        var msgtitle = {title:"我是"+ name +",我参加了十大微+人物评选，快来参加吧！"};
+        window.wxShare.setData(msgtitle);
+        window.wxShare.setLineData(msgtitle);
+    }
     </script>
 </body>
 </html>

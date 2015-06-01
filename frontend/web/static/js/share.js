@@ -11,7 +11,7 @@
             title: (document.getElementsByTagName("title")[0].innerHTML || "").replace(/&nbsp;/g, " "),
             desc: (document.getElementsByName("description")[0] ? document.getElementsByName("description")[0].getAttribute("content") : ""),
             link: location.href.split("#")[0] || "",
-            imgUrl: (document.getElementsByName("img")[0] ? document.getElementsByName("img")[0].src : ""),
+            imgUrl: (document.getElementsByTagName("img")[0] ? document.getElementsByTagName("img")[0].src : ""),
             success: function(){},
             cancel: function(){}
         },

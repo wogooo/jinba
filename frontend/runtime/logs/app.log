@@ -7324,3 +7324,2890 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1433123998.078
     'REQUEST_TIME' => 1433123998
 ]
+2015-06-01 17:20:00 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:20:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4IMCoAWQAALFTTlMAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '56982'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172000.28
+    'REQUEST_TIME' => 1433172000
+]
+2015-06-01 17:20:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:20:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4N8CoAWQAARQf@0IAAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '56993'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172023.438
+    'REQUEST_TIME' => 1433172023
+]
+2015-06-01 17:20:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:20:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4OMCoAWQAAHDDoKQAAAAF'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '56994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172024.259
+    'REQUEST_TIME' => 1433172024
+]
+2015-06-01 17:21:53 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:21:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4kcCoAWQAALCyRfwAAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57122'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172113.598
+    'REQUEST_TIME' => 1433172113
+]
+2015-06-01 17:21:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:21:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4ksCoAWQAAG4d@-EAAAAC'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57123'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172114.1
+    'REQUEST_TIME' => 1433172114
+]
+2015-06-01 17:21:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'wxjssdk\JSSDK' not found' in /mywork/jinba/frontend/views/site/main.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:21:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx4ksCoAWQAAG4Nfl4AAAAJ'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57124'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172114.535
+    'REQUEST_TIME' => 1433172114
+]
+2015-06-01 17:27:54 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'main(): Failed opening required 'wxjssdk/jssdk.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')' in /mywork/jinba/frontend/views/site/main.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:27:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx5@sCoAWQAAAtoVRYAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57231'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172474.375
+    'REQUEST_TIME' => 1433172474
+]
+2015-06-01 17:28:07 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'main(): Failed opening required '/wxjssdk/jssdk.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php')' in /mywork/jinba/frontend/views/site/main.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 17:28:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx6B8CoAWQAAHDDoKUAAAAF'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57233'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172487.135
+    'REQUEST_TIME' => 1433172487
+]
+2015-06-01 17:29:58 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'var_dump() expects at least 1 parameter, 0 given' in /mywork/jinba/frontend/views/site/main.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'var_dump() expe...', '/mywork/jinba/f...', 2, Array)
+#1 /mywork/jinba/frontend/views/site/main.php(2): var_dump()
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#6 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#7 [internal function]: frontend\controllers\SiteController->actionMain()
+#8 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#14 {main}
+2015-06-01 17:29:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx6dsCoAWQAAFvqU0IAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172598.547
+    'REQUEST_TIME' => 1433172598
+]
+2015-06-01 17:30:03 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(jsapi_ticket.json): failed to open stream: No such file or directory' in /mywork/jinba/wxjssdk/jssdk.php:48
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/mywork/jinba/w...', 48, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(48): file_get_contents('jsapi_ticket.js...')
+#2 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#3 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#9 [internal function]: frontend\controllers\SiteController->actionMain()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#16 {main}
+2015-06-01 17:30:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx6e8CoAWQAALQqcw4AAAAE'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172603.707
+    'REQUEST_TIME' => 1433172603
+]
+2015-06-01 17:32:25 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_get_contents(/mywork/jinba/wxjssdkjsapi_ticket.json): failed to open stream: No such file or directory' in /mywork/jinba/wxjssdk/jssdk.php:48
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', '/mywork/jinba/w...', 48, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(48): file_get_contents('/mywork/jinba/w...')
+#2 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#3 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#9 [internal function]: frontend\controllers\SiteController->actionMain()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#16 {main}
+2015-06-01 17:32:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx7CcCoAWQAAG4Nfl8AAAAJ'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57256'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172745.821
+    'REQUEST_TIME' => 1433172745
+]
+2015-06-01 17:32:42 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined property: stdClass::$access_token' in /mywork/jinba/wxjssdk/jssdk.php:78
+Stack trace:
+#0 /mywork/jinba/wxjssdk/jssdk.php(78): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/mywork/jinba/w...', 78, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(50): JSSDK->getAccessToken()
+#2 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#3 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#9 [internal function]: frontend\controllers\SiteController->actionMain()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#16 {main}
+2015-06-01 17:32:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx7GsCoAWQAALFTTlcAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57259'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172762.468
+    'REQUEST_TIME' => 1433172762
+]
+2015-06-01 17:34:12 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined property: stdClass::$access_token' in /mywork/jinba/wxjssdk/jssdk.php:78
+Stack trace:
+#0 /mywork/jinba/wxjssdk/jssdk.php(78): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/mywork/jinba/w...', 78, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(50): JSSDK->getAccessToken()
+#2 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#3 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#9 [internal function]: frontend\controllers\SiteController->actionMain()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#16 {main}
+2015-06-01 17:34:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx7dMCoAWQAAG4NfmAAAAAJ'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57271'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172852.711
+    'REQUEST_TIME' => 1433172852
+]
+2015-06-01 17:34:37 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined property: stdClass::$ticket' in /mywork/jinba/wxjssdk/jssdk.php:55
+Stack trace:
+#0 /mywork/jinba/wxjssdk/jssdk.php(55): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/mywork/jinba/w...', 55, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#2 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#8 [internal function]: frontend\controllers\SiteController->actionMain()
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#15 {main}
+2015-06-01 17:34:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx7jcCoAWQAAAtoVRkAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57275'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172877.12
+    'REQUEST_TIME' => 1433172877
+]
+2015-06-01 17:34:38 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined property: stdClass::$ticket' in /mywork/jinba/wxjssdk/jssdk.php:55
+Stack trace:
+#0 /mywork/jinba/wxjssdk/jssdk.php(55): yii\base\ErrorHandler->handleError(8, 'Undefined prope...', '/mywork/jinba/w...', 55, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#2 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#7 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#8 [internal function]: frontend\controllers\SiteController->actionMain()
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#15 {main}
+2015-06-01 17:34:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx7jsCoAWQAALFTTlkAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433172878.159
+    'REQUEST_TIME' => 1433172878
+]
+2015-06-01 17:37:04 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'fopen(/mywork/jinba/wxjssdk/access_token.json): failed to open stream: Permission denied' in /mywork/jinba/wxjssdk/jssdk.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'fopen(/mywork/j...', '/mywork/jinba/w...', 82, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(82): fopen('/mywork/jinba/w...', 'w')
+#2 /mywork/jinba/wxjssdk/jssdk.php(50): JSSDK->getAccessToken()
+#3 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#4 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#9 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#10 [internal function]: frontend\controllers\SiteController->actionMain()
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#15 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+2015-06-01 17:37:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx8H8CoAWQAAG4d@-MAAAAC'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57323'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433173023.66
+    'REQUEST_TIME' => 1433173023
+]
+2015-06-01 17:37:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'fopen(/mywork/jinba/wxjssdk/access_token.json): failed to open stream: Permission denied' in /mywork/jinba/wxjssdk/jssdk.php:82
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'fopen(/mywork/j...', '/mywork/jinba/w...', 82, Array)
+#1 /mywork/jinba/wxjssdk/jssdk.php(82): fopen('/mywork/jinba/w...', 'w')
+#2 /mywork/jinba/wxjssdk/jssdk.php(50): JSSDK->getAccessToken()
+#3 /mywork/jinba/wxjssdk/jssdk.php(12): JSSDK->getJsApiTicket()
+#4 /mywork/jinba/frontend/views/site/main.php(4): JSSDK->getSignPackage()
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\SiteController))
+#8 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('main', Array, Object(frontend\controllers\SiteController))
+#9 /mywork/jinba/frontend/controllers/SiteController.php(26): yii\base\Controller->render('main')
+#10 [internal function]: frontend\controllers\SiteController->actionMain()
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('main', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/main', Array)
+#15 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+2015-06-01 17:37:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWx8IcCoAWQAAAtoVRsAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '57324'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/main'
+    'REQUEST_URI' => '/index.php?r=site/main'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433173025.291
+    'REQUEST_TIME' => 1433173025
+]
+2015-06-01 18:51:37 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'number' cannot be null' in /mywork/jinba/vendor/yiisoft/yii2/db/Command.php:771
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(771): PDOStatement->execute()
+#1 /mywork/jinba/vendor/yiisoft/yii2/db/Schema.php(415): yii\db\Command->execute()
+#2 /mywork/jinba/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('{{%company}}', Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/db/ActiveRecord.php(422): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /mywork/jinba/vendor/yiisoft/yii2/db/BaseActiveRecord.php(589): yii\db\ActiveRecord->insert(true, NULL)
+#5 /mywork/jinba/frontend/controllers/UserController.php(86): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\UserController->actionCreate()
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'number' cannot be null
+The SQL being executed was: INSERT INTO `cfh_company` (`company`, `industry`, `business`, `product`, `address`, `number`, `create_time`, `update_time`, `uid`) VALUES ('', '', '', '', '', NULL, 1433177497, 1433177497, 1)' in /mywork/jinba/vendor/yiisoft/yii2/db/Schema.php:595
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(779): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `cf...')
+#1 /mywork/jinba/vendor/yiisoft/yii2/db/Schema.php(415): yii\db\Command->execute()
+#2 /mywork/jinba/vendor/yiisoft/yii2/db/ActiveRecord.php(457): yii\db\Schema->insert('{{%company}}', Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/db/ActiveRecord.php(422): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /mywork/jinba/vendor/yiisoft/yii2/db/BaseActiveRecord.php(589): yii\db\ActiveRecord->insert(true, NULL)
+#5 /mywork/jinba/frontend/controllers/UserController.php(86): yii\db\BaseActiveRecord->save()
+#6 [internal function]: frontend\controllers\UserController->actionCreate()
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#11 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'number' cannot be null
+)
+
+2015-06-01 18:51:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/create'
+]
+
+$_POST = [
+    'name' => '发斯蒂芬斯蒂芬'
+    'gender' => '2'
+    'birthday' => '2015-06-02'
+    'mobile' => '18698102767'
+    'email' => 'dafdf@qq.com'
+    'social' => 'fdsfsdf'
+    'type' => [
+        0 => '1'
+    ]
+    'company' => ''
+    'industry' => ''
+    'business' => ''
+    'product' => ''
+    'address' => ''
+    'number' => ''
+    'background_objectives' => ''
+    'try_result' => ''
+    'difficult' => ''
+    'need_help' => ''
+    '_csrf' => 'c3dUVnI1ZERBID0PPwImcSkQASIhZFwlSzA2BRlgIBceNGATIndXNw=='
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyNmcCoAWQAAMQWUzIAAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '344'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_ORIGIN' => 'http://jinba.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://jinba.com/index.php?r=site/form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '58571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=user%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433177497.184
+    'REQUEST_TIME' => 1433177497
+]
+2015-06-01 19:23:56 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jinba.user' doesn't exist' in /mywork/jinba/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /mywork/jinba/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /mywork/jinba/frontend/controllers/UserController.php(72): yii\db\Query->one()
+#4 [internal function]: frontend\controllers\UserController->actionCreate()
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jinba.user' doesn't exist
+The SQL being executed was: SELECT `id` FROM `user` WHERE `mobile`='18698102767'' in /mywork/jinba/vendor/yiisoft/yii2/db/Schema.php:595
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id` FRO...')
+#1 /mywork/jinba/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /mywork/jinba/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /mywork/jinba/frontend/controllers/UserController.php(72): yii\db\Query->one()
+#4 [internal function]: frontend\controllers\UserController->actionCreate()
+#5 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/create', Array)
+#9 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'jinba.user' doesn't exist
+)
+
+2015-06-01 19:23:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/create'
+]
+
+$_POST = [
+    'name' => 'fsdfsdfs'
+    'gender' => '1'
+    'birthday' => '2015-06-02'
+    'mobile' => '18698102767'
+    'email' => 'q420115@163.com'
+    'social' => '123123'
+    'type' => [
+        0 => '1'
+        1 => '6'
+    ]
+    'company' => ''
+    'industry' => ''
+    'business' => ''
+    'product' => ''
+    'address' => ''
+    'number' => ''
+    'background_objectives' => ''
+    'try_result' => ''
+    'difficult' => ''
+    'need_help' => ''
+    '_csrf' => 'cm5JWmFnb0hAOSADLFAtfSgJHC4yNlcpSikrCQoyKxsfLX0fMSVcOw=='
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyVLMCoAWQAALgB2nsAAAAK'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '304'
+    'HTTP_ACCEPT' => 'application/json'
+    'HTTP_ORIGIN' => 'http://jinba.com'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://jinba.com/index.php?r=site/form'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '58913'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fcreate'
+    'REQUEST_URI' => '/index.php?r=user%2Fcreate'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433179436.37
+    'REQUEST_TIME' => 1433179436
+]
+2015-06-01 19:49:06 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybEsCoAWQAAMJs7G4AAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180946.232
+    'REQUEST_TIME' => 1433180946
+]
+2015-06-01 19:49:41 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybNcCoAWQAAMo8DjIAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59156'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180981.234
+    'REQUEST_TIME' => 1433180981
+]
+2015-06-01 19:49:41 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybNcCoAWQAAMQWUzgAAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59157'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180981.809
+    'REQUEST_TIME' => 1433180981
+]
+2015-06-01 19:49:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybNsCoAWQAAFvqU2sAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180982.054
+    'REQUEST_TIME' => 1433180982
+]
+2015-06-01 19:49:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybNsCoAWQAALHBEtkAAAAG'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180982.347
+    'REQUEST_TIME' => 1433180982
+]
+2015-06-01 19:49:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:49:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybNsCoAWQAAMJs7G8AAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433180982.63
+    'REQUEST_TIME' => 1433180982
+]
+2015-06-01 19:50:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/index' in /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/index', Array)
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /mywork/jinba/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-06-01 19:50:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybeMCoAWQAALgB2n0AAAAK'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59178'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/index'
+    'REQUEST_URI' => '/index.php?r=site/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181048.057
+    'REQUEST_TIME' => 1433181048
+]
+2015-06-01 19:50:51 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: dataProvider' in /mywork/jinba/frontend/controllers/UserController.php:37
+Stack trace:
+#0 /mywork/jinba/frontend/controllers/UserController.php(37): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/mywork/jinba/f...', 37, Array)
+#1 [internal function]: frontend\controllers\UserController->actionIndex()
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-01 19:50:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybe8CoAWQAAMu8-TMAAAAF'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59182'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181051.32
+    'REQUEST_TIME' => 1433181051
+]
+2015-06-01 19:51:06 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:51:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybicCoAWQAAMicyIMAAAAE'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.3 (KHTML, like Gecko) Version/8.0 Mobile/12A4345d Safari/600.1.4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59183'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181065.963
+    'REQUEST_TIME' => 1433181065
+]
+2015-06-01 19:51:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:51:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybjcCoAWQAANbCCiQAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59184'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181069.066
+    'REQUEST_TIME' => 1433181069
+]
+2015-06-01 19:51:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: dataProvider' in /mywork/jinba/frontend/controllers/UserController.php:34
+Stack trace:
+#0 /mywork/jinba/frontend/controllers/UserController.php(34): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/mywork/jinba/f...', 34, Array)
+#1 [internal function]: frontend\controllers\UserController->actionIndex()
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-01 19:51:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybr8CoAWQAAMJs7HMAAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59189'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181103.648
+    'REQUEST_TIME' => 1433181103
+]
+2015-06-01 19:51:49 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses.' in /mywork/jinba/vendor/yiisoft/yii2/data/ActiveDataProvider.php:101
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#1 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#2 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#3 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(178): yii\data\BaseDataProvider->getCount()
+#4 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(149): yii\widgets\BaseListView->renderSummary()
+#5 /mywork/jinba/vendor/yiisoft/yii2/grid/GridView.php(307): yii\widgets\BaseListView->renderSection('{summary}')
+#6 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{summary}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#9 /mywork/jinba/vendor/yiisoft/yii2/grid/GridView.php(282): yii\widgets\BaseListView->run()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/Widget.php(97): yii\grid\GridView->run()
+#11 /mywork/jinba/frontend/views/user/index.php(38): yii\base\Widget::widget(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\UserController))
+#15 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#16 /mywork/jinba/frontend/controllers/UserController.php(37): yii\base\Controller->render('index', Array)
+#17 [internal function]: frontend\controllers\UserController->actionIndex()
+#18 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#19 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#21 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#22 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#24 {main}
+2015-06-01 19:51:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybtcCoAWQAAG4d-AkAAAAC'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59191'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181109.57
+    'REQUEST_TIME' => 1433181109
+]
+2015-06-01 19:51:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:51:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybvMCoAWQAAMicyIQAAAAE'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59193'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181116.651
+    'REQUEST_TIME' => 1433181116
+]
+2015-06-01 19:51:59 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:51:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWybv8CoAWQAANbCCiYAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59194'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181119.565
+    'REQUEST_TIME' => 1433181119
+]
+2015-06-01 19:53:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:53:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycJMCoAWQAAFvqU24AAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181220.703
+    'REQUEST_TIME' => 1433181220
+]
+2015-06-01 19:54:25 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses.' in /mywork/jinba/vendor/yiisoft/yii2/data/ActiveDataProvider.php:101
+Stack trace:
+#0 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#1 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#2 /mywork/jinba/vendor/yiisoft/yii2/data/BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#3 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(178): yii\data\BaseDataProvider->getCount()
+#4 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(149): yii\widgets\BaseListView->renderSummary()
+#5 /mywork/jinba/vendor/yiisoft/yii2/grid/GridView.php(307): yii\widgets\BaseListView->renderSection('{summary}')
+#6 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{summary}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 /mywork/jinba/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{summary}\n{item...')
+#9 /mywork/jinba/vendor/yiisoft/yii2/grid/GridView.php(282): yii\widgets\BaseListView->run()
+#10 /mywork/jinba/vendor/yiisoft/yii2/base/Widget.php(97): yii\grid\GridView->run()
+#11 /mywork/jinba/frontend/views/user/index.php(38): yii\base\Widget::widget(Array)
+#12 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(325): require('/mywork/jinba/f...')
+#13 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/mywork/jinba/f...', Array)
+#14 /mywork/jinba/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/mywork/jinba/f...', Array, Object(frontend\controllers\UserController))
+#15 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\UserController))
+#16 /mywork/jinba/frontend/controllers/UserController.php(38): yii\base\Controller->render('index', Array)
+#17 [internal function]: frontend\controllers\UserController->actionIndex()
+#18 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#19 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#21 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#22 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#24 {main}
+2015-06-01 19:54:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycUcCoAWQAAMJs7HQAAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59235'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181265.393
+    'REQUEST_TIME' => 1433181265
+]
+2015-06-01 19:54:35 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycW8CoAWQAANbCCicAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181275.216
+    'REQUEST_TIME' => 1433181275
+]
+2015-06-01 19:54:44 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycZMCoAWQAAMQWUzoAAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59239'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181284.562
+    'REQUEST_TIME' => 1433181284
+]
+2015-06-01 19:54:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycZcCoAWQAAFvqU3AAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59240'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181285.632
+    'REQUEST_TIME' => 1433181285
+]
+2015-06-01 19:54:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycZsCoAWQAAG4d-AwAAAAC'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59241'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181286.376
+    'REQUEST_TIME' => 1433181286
+]
+2015-06-01 19:54:53 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycbcCoAWQAALHBEtwAAAAG'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59243'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181293.474
+    'REQUEST_TIME' => 1433181293
+]
+2015-06-01 19:54:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycbsCoAWQAAMo8DjYAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59244'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181294.204
+    'REQUEST_TIME' => 1433181294
+]
+2015-06-01 19:54:58 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:54:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyccsCoAWQAAMJs7HYAAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59245'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181298.17
+    'REQUEST_TIME' => 1433181298
+]
+2015-06-01 19:55:09 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant User - assumed 'User'' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 /mywork/jinba/frontend/controllers/UserController.php(32): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/mywork/jinba/f...', 32, Array)
+#1 [internal function]: frontend\controllers\UserController->actionIndex()
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-01 19:55:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycfcCoAWQAAFvqU3EAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181309.915
+    'REQUEST_TIME' => 1433181309
+]
+2015-06-01 19:55:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:55:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyckcCoAWQAALHBEt0AAAAG'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59251'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181329.387
+    'REQUEST_TIME' => 1433181329
+]
+2015-06-01 19:55:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:55:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycocCoAWQAAMo8DjcAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59254'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181345.698
+    'REQUEST_TIME' => 1433181345
+]
+2015-06-01 19:56:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycvcCoAWQAALgB2oAAAAAK'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59261'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181373.412
+    'REQUEST_TIME' => 1433181373
+]
+2015-06-01 19:56:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycycCoAWQAAMicyIYAAAAE'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59265'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181385.396
+    'REQUEST_TIME' => 1433181385
+]
+2015-06-01 19:56:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycycCoAWQAAMQWUzwAAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59266'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181385.979
+    'REQUEST_TIME' => 1433181385
+]
+2015-06-01 19:56:26 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:32
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWycysCoAWQAAFvqU3MAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59267'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181386.444
+    'REQUEST_TIME' => 1433181386
+]
+2015-06-01 19:56:57 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyc6cCoAWQAAMJs7HgAAAAB'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59271'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181417.628
+    'REQUEST_TIME' => 1433181417
+]
+2015-06-01 19:56:58 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyc6sCoAWQAAMu8-TcAAAAF'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181418.339
+    'REQUEST_TIME' => 1433181418
+]
+2015-06-01 19:56:58 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:56:58 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyc6sCoAWQAANbCCioAAAAI'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59273'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181418.642
+    'REQUEST_TIME' => 1433181418
+]
+2015-06-01 19:58:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\app\models\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:58:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWydMMCoAWQAAFvqU3QAAAAA'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59280'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181488.951
+    'REQUEST_TIME' => 1433181488
+]
+2015-06-01 19:58:17 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:58:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWydOcCoAWQAAMo8DjgAAAAD'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59282'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181497.777
+    'REQUEST_TIME' => 1433181497
+]
+2015-06-01 19:58:31 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'models\User' not found' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-01 19:58:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWydR8CoAWQAALHBEt8AAAAG'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59285'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181511.823
+    'REQUEST_TIME' => 1433181511
+]
+2015-06-01 20:03:37 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: pwd' in /mywork/jinba/frontend/controllers/UserController.php:33
+Stack trace:
+#0 /mywork/jinba/frontend/controllers/UserController.php(33): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/mywork/jinba/f...', 33, Array)
+#1 [internal function]: frontend\controllers\UserController->actionIndex()
+#2 /mywork/jinba/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /mywork/jinba/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 /mywork/jinba/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 /mywork/jinba/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('user/index', Array)
+#6 /mywork/jinba/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /mywork/jinba/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-01 20:03:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_COOKIE = [
+    '_csrf' => 'abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s\";}'
+    'PHPSESSID' => 'n94h4ni46fmurnr8sj17r1jd14'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VWyeecCoAWQAAMQWUz0AAAAH'
+    'HTTP_HOST' => 'jinba.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,fr;q=0.4,zh-TW;q=0.2'
+    'HTTP_COOKIE' => '_csrf=abad4d158481d7e4a8365e00f19420c685cf33845348428e816be2c81d116090a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222WiYM7B5ZgUtSQ8a8GbSkUDSmC4EPB3s%22%3B%7D; PHPSESSID=n94h4ni46fmurnr8sj17r1jd14'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1i PHP/5.5.15 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'jinba.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/mywork/jinba/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@yiitest.com'
+    'SCRIPT_FILENAME' => '/mywork/jinba/frontend/web/index.php'
+    'REMOTE_PORT' => '59349'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user/index'
+    'REQUEST_URI' => '/index.php?r=user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1433181817.161
+    'REQUEST_TIME' => 1433181817
+]

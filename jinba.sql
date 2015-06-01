@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2015-05-31 06:11:33
+-- Generation Time: 2015-06-01 09:42:33
 -- 服务器版本： 5.6.20
 -- PHP Version: 5.5.15
 
@@ -29,12 +29,14 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `cfh_company` (
 `id` int(10) unsigned NOT NULL,
   `uid` int(10) unsigned NOT NULL,
-  `name` varchar(100) NOT NULL DEFAULT '',
+  `company` varchar(100) NOT NULL DEFAULT '',
   `industry` varchar(100) NOT NULL DEFAULT '',
   `business` varchar(100) NOT NULL DEFAULT '',
   `product` varchar(100) NOT NULL DEFAULT '',
   `address` varchar(255) NOT NULL DEFAULT '',
-  `number` int(10) NOT NULL
+  `number` int(10) NOT NULL,
+  `create_time` int(10) unsigned NOT NULL,
+  `update_time` int(10) unsigned NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -50,7 +52,9 @@ CREATE TABLE IF NOT EXISTS `cfh_extend` (
   `try_result` text NOT NULL COMMENT '创新尝试及结果',
   `difficult` text NOT NULL COMMENT '过程中遇到的困难',
   `need_help` text NOT NULL COMMENT '你需要的帮助',
-  `information` tinyint(1) unsigned NOT NULL COMMENT '相关资料提供1.照片 2.视频 3.媒体报到 4.其他'
+  `information` varchar(100) NOT NULL DEFAULT '' COMMENT '相关资料提供1.照片 2.视频 3.媒体报到 4.其他',
+  `create_time` int(10) unsigned NOT NULL,
+  `update_time` int(10) unsigned NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -67,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `cfh_user` (
   `mobile` varchar(15) NOT NULL COMMENT '手机',
   `email` varchar(100) NOT NULL DEFAULT '' COMMENT '邮箱',
   `social` varchar(100) NOT NULL DEFAULT '' COMMENT '微信微博',
-  `type` tinyint(1) unsigned NOT NULL COMMENT '类型 1.企业创始人 2.私营企业主 3.个体户 4.股东 5.外聘高管 6.其他',
+  `type` varchar(100) NOT NULL DEFAULT '' COMMENT '类型 1.企业创始人 2.私营企业主 3.个体户 4.股东 5.外聘高管 6.其他',
   `create_time` int(10) unsigned NOT NULL,
   `update_time` int(10) unsigned NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

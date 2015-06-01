@@ -58,4 +58,19 @@ class User extends ActiveRecord {
 			'update_time' => 'Update Time',
 		];
 	}
+
+	public function checkexist($mobile) {
+		$query = (new \yii\db\Query())
+		    ->select("id")
+		    ->from(self::tableName())
+		    ->where([
+			    'mobile' => $mobile
+			]);
+		$data = $query->one();
+		$res = false;
+		if ($data) {
+			$res = true;
+		}
+		return $res;
+	}
 }
