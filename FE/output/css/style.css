@@ -17,10 +17,10 @@ body,
   margin: auto;
   -webkit-animation: guide 1s ease-out 0s infinite;
   animation: guide 1s ease-out 0s infinite;
-  background-image: url(http://tjvvv.com/demo/jinba/img/arrow.png);
+  background-image: url(./img/arrow.png);
 }
 #story1 {
-  background: url(http://tjvvv.com/demo/jinba/img/p1bg.jpg) no-repeat 50% 0;
+  background: url(./img/p1bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story1 .middle-center {
@@ -29,7 +29,7 @@ body,
 }
 #story1 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p1ct.png) no-repeat 50% 50%;
+  background: url(./img/p1ct.png) no-repeat 50% 50%;
 }
 #story1 .ui-text1 {
   height: 60px;
@@ -70,7 +70,7 @@ body,
   background-position: 50% -517px;
 }
 #story2 {
-  background: url(http://tjvvv.com/demo/jinba/img/p2bg.jpg) no-repeat 50% 0;
+  background: url(./img/p2bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story2 .middle-center {
@@ -79,7 +79,7 @@ body,
 }
 #story2 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p2ct.png) no-repeat 50% 50%;
+  background: url(./img/p2ct.png) no-repeat 50% 50%;
 }
 #story2 .ui-text1 {
   height: 60px;
@@ -108,10 +108,10 @@ body,
   margin-top: 110px;
   -webkit-animation-delay: 2.5s;
   animation-delay: 2.5s;
-  background: url(http://tjvvv.com/demo/jinba/img/p1ct.png) no-repeat 50% -517px;
+  background: url(./img/p1ct.png) no-repeat 50% -517px;
 }
 #story3 {
-  background: url(http://tjvvv.com/demo/jinba/img/p3bg.jpg) no-repeat 50% 0;
+  background: url(./img/p3bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story3 .middle-center {
@@ -121,7 +121,7 @@ body,
 }
 #story3 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p3ct.png) no-repeat 50% 50%;
+  background: url(./img/p3ct.png) no-repeat 50% 50%;
 }
 #story3 .ui-text1 {
   height: 64px;
@@ -184,7 +184,7 @@ body,
   background-position: -288px -585px;
 }
 #story4 {
-  background: url(http://tjvvv.com/demo/jinba/img/p4bg.jpg) no-repeat 50% 0;
+  background: url(./img/p4bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story4 .middle-center {
@@ -194,7 +194,7 @@ body,
 }
 #story4 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p4ct.png) no-repeat 50% 50%;
+  background: url(./img/p4ct.png) no-repeat 50% 50%;
 }
 #story4 .ui-text1 {
   height: 88px;
@@ -256,7 +256,7 @@ body,
   animation-duration: .5s;
 }
 #story5 {
-  background: url(http://tjvvv.com/demo/jinba/img/p5bg.jpg) no-repeat 50% 0;
+  background: url(./img/p5bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story5 .middle-center {
@@ -267,7 +267,7 @@ body,
 }
 #story5 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p5ct.png) no-repeat 50% 50%;
+  background: url(./img/p5ct.png) no-repeat 50% 50%;
 }
 #story5 .ui-text1 {
   height: 88px;
@@ -309,13 +309,13 @@ body,
   z-index: 2;
   width: 100%;
   height: 100%;
-  background: url(http://tjvvv.com/demo/jinba/img/p5bg2.jpg) no-repeat 50% 50%;
+  background: url(./img/p5bg2.jpg) no-repeat 50% 50%;
   background-size: cover;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
 }
 #story6 {
-  background: url(http://tjvvv.com/demo/jinba/img/p6bg.jpg) no-repeat 50% 0;
+  background: url(./img/p6bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story6 .middle-center {
@@ -325,7 +325,7 @@ body,
 }
 #story6 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p6ct.png) no-repeat 50% 50%;
+  background: url(./img/p6ct.png) no-repeat 50% 50%;
 }
 #story6 .ui-text1 {
   height: 88px;
@@ -361,7 +361,7 @@ body,
   animation-duration: 1.5s;
 }
 #story7 {
-  background: url(http://tjvvv.com/demo/jinba/img/p7bg.jpg) no-repeat 50% 0;
+  background: url(./img/p7bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story7 .middle-center {
@@ -371,7 +371,7 @@ body,
 }
 #story7 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p7ct.png) no-repeat 50% 50%;
+  background: url(./img/p7ct.png) no-repeat 50% 50%;
 }
 #story7 .ui-text1 {
   height: 88px;
@@ -391,7 +391,7 @@ body,
   height: 185px;
   margin-top: 220px;
   margin-left: 60px;
-  background: url(http://tjvvv.com/demo/jinba/img/p7cup.png) no-repeat 50% 50%;
+  background: url(./img/p7cup.png) no-repeat 50% 50%;
   background-position: 0 0;
   -webkit-animation-delay: 2.3s;
   animation-delay: 2.3s;
@@ -404,7 +404,7 @@ body,
   animation-delay: 3.3s;
 }
 #story8 {
-  background: url(http://tjvvv.com/demo/jinba/img/p8bg.jpg) no-repeat 50% 0;
+  background: url(./img/p8bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story8 .middle-center {
@@ -414,20 +414,20 @@ body,
 }
 #story8 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p8ct.png) no-repeat 50% 50%;
+  background: url(./img/p8ct.png) no-repeat 50% 50%;
 }
 #story8 .ui-box {
   float: left;
   width: 194px;
   height: 194px;
-  background: url(http://tjvvv.com/demo/jinba/img/p8ct.png) no-repeat 50% 50%;
+  background: url(./img/p8ct.png) no-repeat 50% 50%;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
 }
 #story8 .ui-arrow {
   float: left;
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p8ct.png) no-repeat 50% 50%;
+  background: url(./img/p8ct.png) no-repeat 50% 50%;
   -webkit-animation-duration: .2s;
   animation-duration: .2s;
 }
@@ -513,7 +513,7 @@ body,
   animation-delay: 3.5s;
 }
 #story9 {
-  background: url(http://tjvvv.com/demo/jinba/img/p9bg.jpg) no-repeat 50% 0;
+  background: url(./img/p9bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story9 .middle-center {
@@ -523,7 +523,7 @@ body,
 }
 #story9 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p9ct.png) no-repeat 50% 50%;
+  background: url(./img/p9ct.png) no-repeat 50% 50%;
 }
 #story9 .ui-text1 {
   height: 88px;
@@ -596,7 +596,7 @@ body,
   margin-left: 40px;
 }
 #story10 {
-  background: url(http://tjvvv.com/demo/jinba/img/p10bg.jpg) no-repeat 50% 0;
+  background: url(./img/p10bg.jpg) no-repeat 50% 0;
   background-size: cover;
 }
 #story10 .middle-center {
@@ -606,7 +606,7 @@ body,
 }
 #story10 .ui-text {
   width: 640px;
-  background: url(http://tjvvv.com/demo/jinba/img/p10ct.png) no-repeat 50% 50%;
+  background: url(./img/p10ct.png) no-repeat 50% 50%;
 }
 #story10 .ui-text1 {
   height: 44px;
@@ -670,7 +670,7 @@ body,
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(http://tjvvv.com/demo/jinba/img/share.png) no-repeat 85% 10%;
+  background: url(./img/share.png) no-repeat 85% 10%;
 }
 @-webkit-keyframes guide {
   0% {

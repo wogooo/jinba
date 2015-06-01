@@ -1,7 +1,7 @@
 html {
   overflow: auto;
   height: auto;
-  background: #0a1c44 url(http://tjvvv.com/demo/jinba/img/formbg.jpg) repeat-y 0 0 fixed;
+  background: #0a1c44 url(./img/formbg.jpg) repeat-y 0 0 fixed;
 }
 body {
   background-color: transparent;
@@ -9,7 +9,7 @@ body {
 .form-title {
   height: 108px;
   margin: 45px 0 40px;
-  background: url(http://tjvvv.com/demo/jinba/img/form-title.png?2) no-repeat 50% 0;
+  background: url(./img/form-title.png?2) no-repeat 50% 0;
 }
 .form-wrap {
   width: 470px;
@@ -72,7 +72,7 @@ body {
 }
 .formitem .form-object input[type='text'],
 .formitem .form-object input[type='date'],
-.formitem .form-object input[type='telephone'],
+.formitem .form-object input[type='tel'],
 .formitem .form-object input[type='email'],
 .formitem .form-object input[type='number'] {
   width: 340px;
@@ -108,7 +108,7 @@ body {
   cursor: pointer;
   vertical-align: middle;
   border: none;
-  background: url(http://tjvvv.com/demo/jinba/img/minimal.png) no-repeat;
+  background: url(./img/minimal.png) no-repeat;
   background-color: #fff;
   *display: inline;
 }
@@ -152,7 +152,7 @@ body {
 @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
   .icheckbox_minimal,
   .iradio_minimal {
-    background-image: url(http://tjvvv.com/demo/jinba/img/minimal@2x.png);
+    background-image: url(./img/minimal@2x.png);
     -webkit-background-size: 200px 20px;
     background-size: 200px 20px;
   }

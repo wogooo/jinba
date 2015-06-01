@@ -1,4 +1,4 @@
-fis.config.set('roadmap.domain', 'http://tjvvv.com/demo/jinba');
+fis.config.set('roadmap.domain', '.');
 
 //后缀名的less的文件使用fis-parser-less编译
 //modules.parser.less表示设置后缀名为less的文件的parser，第二个less表示使用fis-parser-less进行编译
